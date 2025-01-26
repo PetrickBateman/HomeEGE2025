@@ -1,4 +1,4 @@
-from itertools import product, permutations
+from itertools import permutations
 
 def f(a, b, c):
     return a and (not b) or c
