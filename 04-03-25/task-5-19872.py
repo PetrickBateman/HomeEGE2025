@@ -9,7 +9,7 @@ ans = []
 for n in range(1, 1001):
     r = convert(n, 7)
     if n % 2 == 0:
-        r = '1' + r + '52'
+        r = '52' + r + '1'
     else:
         r = r[-1] + r[1:-1] + r[0] + '15'
     for i in range(len(r)):
